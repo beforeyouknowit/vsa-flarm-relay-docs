@@ -1,3 +1,5 @@
-# Vancouver Soaring Association FLARM Relay Project
+# Vancouver Soaring Association FLARM Relay Project Documentation
 
-> An awesome project.
+Welcome to the documentation for our FLARM / OGN relay project.
+
+> 
