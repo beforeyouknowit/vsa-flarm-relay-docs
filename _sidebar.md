@@ -1,9 +1,12 @@
 - Overview
+
   - [Project Goals](/goals.md "VSA FLARM Relay Project Goals")
   - [Built with...](/builtwith.md "VSA FLARM Relay was built with these tools and frameworks...")
   - [Changelog](/changelog.md "VSA FLARM Relay change log.")
   - [Thanks to...](/thanks.md "VSA FLARM Relay special thanks to...")
+
 - System Notes
+
   - [System Diagrams](/diagrams.md "VSA FLARM Relay system diagrams and explanations.")
   - [FLARM Radio Coverage](/coverage.md "FLARM radio relay coverage map.")
   - [Off-Grid Power Supply](/power.md "VSA FLARM Relay system off-grid power supply and subsystems.")
