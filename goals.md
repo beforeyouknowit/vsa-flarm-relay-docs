@@ -1,6 +1,6 @@
 # Project Goals
 - Increase regional pilot and aircraft safety.
-- Improve situational awareness of our club aircraft..
+- Improve situational awareness of our club aircraft.
 - Create visibility of our club aircraft to on-site and off-site VSA club members and the public.
 
 ### Separation of Concerns
@@ -23,3 +23,4 @@
 - Weather station; mast-mounted temperature, barometer, wind vane/impeller, humidity, precipitation, etc.
 - IP camera (ie. viewing visual weather conditions from mountain-top) for VSA club members only.
 - IP camera (physical security / wildlife intrusion) relay station visual monitoring, for VSA club members only.
+- One flat control plane for our communications network, Power-over-Ethernet remote control, IP camera DVR integration, etc.
