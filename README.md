@@ -2,6 +2,8 @@
 
 Welcome to the documentation for our FLARM / OGN relay project.
 
+![Open Glider Net System Diagram](./img/OGN_Arch.png "OGN System Diagram")
+
 ### For Documentation Developers
 - To get started, clone this repo to your local working directory.
 - Ensure you have [Docsify.js](https://docsify.js.org/) installed, via `npm i docsify-cli -g`.

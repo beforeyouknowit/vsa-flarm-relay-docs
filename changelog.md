@@ -1,1 +1,3 @@
 # Changelog
+
+**2019-07-21:** System has been running next to the clubhouse, fully off-grid, for the past few weeks. Last bench-testing steps; pending the addition of a secondary Raspberry Pi and thermal sensors, deployed inside the battery brain/box. Involved club members on the project are anxious to deploy the relay on the mountaintop soon; James will send out an email to involved club members to organize an installation party.
