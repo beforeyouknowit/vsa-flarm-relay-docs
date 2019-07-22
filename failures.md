@@ -30,7 +30,7 @@ Issues encountered so far; solutions & procedures pending:
 ---
 
 !> **Problem:** Mast component over-temperature.
-> **Solution:** 
+> **Solution:** Shutdown of the mast Raspberry Pi and SDR module for a few hours; i.e. disabling OGN to preserve the life of the components. If necessary, visit the mountain-top relay station; inspect and replace Pi if failed.
 
 ---
 
