@@ -4,20 +4,62 @@ Issues encountered so far; solutions & procedures pending:
 
 ---
 
-**Problem:** SDR radio dongle not able to communicate with Raspberry Pi over proposed USB-over-ethernet dongle/extender link.
-
-**Solution:** Remove USB-over-ethernet dongles from system; resolve to deploy Raspberry Pi in radio mast box.
-
----
-
-**Problem:** MPPT charge controller serial data (RS485 via RJ45 jack) only available via wifi dongle in host mode; not available in client wifi mode.
-
-**Solution:** Remove wifi dongle from MPPT controller; deploy FTDI cable to RS485 "console" jack; connect to secondary (battery/brain box) Raspberry Pi.
+!> **Problem:** Brain/box v1.0 MPPT charge controller's serial data is only consumable in proprietary encoding format. (Not sure if decoding library is available from the manufacturer.)
+> **Solution:** Poll/debug RS485 serial data and develop our own (minimalistic) serial polling, after deploying the system on the mountain top, via SSH'ing in from the clubhouse. (If possible, securely VPN tunnel into the clubhouse network from off-site.)
 
 ---
 
-**Problem:** MPPT charge controller serial data in proprietary encoding format; not sure if decoding library is available from manufacturer.
+!> **Problem:** OGN Raspberry Pi computer crashes; startup sequence failure, (i.e. can’t SSH in!)
+> **Solution:** Defer to secondary brain/box Raspberry Pi for diagnostics and log inspection, otherwise; visit the mountain-top relay station, inspect and repair.
 
-**Solution:** Poll/debug RS485 serial data and develop our own (minimalistic) serial polling, after deploying the system on the mountain top, via SSH'ing in from the clubhouse. (Ideally we'd have a way to VPN into the clubhouse from off-site!)
+---
+
+!> **Problem:** Solar charge controller failure.
+> **Solution:** If the station is entirely offline, visit the mountain-top relay station; inspect and repair.
+
+---
+
+!> **Problem:** Power bus over- or under-voltage.
+> **Solution:** Remotely log into MPPT charge controller; inspect logs. Compare with temperature sensor data from brain/box Raspberry Pi database.
+
+---
+
+!> **Problem:** Battery, charge controller, or brain/box internal over-temperature.
+> **Solution:** Preempt with white brain/box covering, burying underneath larger thermal mass on-site. If still over-temp, 
+
+---
+
+!> **Problem:** Mast component over-temperature.
+> **Solution:** 
+
+---
+
+!> **Problem:** Battery failure.
+> **Solution:** Visit the mountain-top relay station; inspect and repair.
+
+--- 
+
+!> **Problem:** PowerBeam (long-range wifi radio link) failure.
+> **Solution:** Visit the mountain-top relay station; inspect and repair.
+
+---
+
+!> **Problem:** LAN relay failure.
+> **Solution:** Visit the mountain-top relay station; inspect and repair.
+
+---
+
+!> **Problem:** Fire.
+> **Solution:** Call 9-1-1 and report the fire, possibly electrical. Visit the mountain-top relay station; inspect and repair.
+
+---
+
+!> **Problem:** Physical damage, i.e. electrical or electrostatic discharge, data or power cabling, mast or support structure failure, animal disturbances or damage.
+> **Solution:** Visit the mountain-top relay station; inspect and repair.
+
+---
+
+!> **Problem:** Theft / vandalism.
+> **Solution:** Deploy vandal-resistant key locks on brain/box; cut-resistant physical security guy wire anchored to rock pinion.
 
 ---
