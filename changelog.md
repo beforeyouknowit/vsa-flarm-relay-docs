@@ -1,10 +1,10 @@
 # Changelog
 
 ### 2019-08-24: Review & Configure eMPPT PoE Port Scheduling
-- Configured `cron` on Pi 3 up on south ridge station; via `sudo crontab -e` and added `45 20 * * * sudo shutdown -h` to automatically safely power down at 8:45 PM local time.
-- Configured SolarMAX MPPT PoE port to Relay Pi 3 to power on at 9:00 AM local, and power off at 9:00 PM local.
-- Configured G3-Flex webcam to power on at 9:00 AM local, and power off at 9:00 PM local.
-- Configured PowerBeam-5AC radio on remote station to power on at 8:00 AM local, and power off at 10:00 PM local.
+- Configured `cron` on Pi 3 up on south ridge station; via `sudo crontab -e` and added `45 20 * * * sudo shutdown -h` to automatically safely power down at 9:45 PM local time.
+- Configured SolarMAX MPPT PoE port to Relay Pi 3 to power on at 8:00 AM local, and power off at 8:00 PM local.
+- Configured G3-Flex webcam to power on at 8:00 AM local, and power off at 8:00 PM local.
+- Configured PowerBeam-5AC radio on remote station to power on at 8:00 AM local, and power off at 10:30 PM local.
 - Changed relay Pi 3 `hostname` to `flarm-relay-pi` and rebooted.
 - All systems have been functioning as expected for this past week; consistently reviewed by James and Ashley remotely.
 - Suggestion of another mountaintop venture to reposition the solar panels; we'll see how we go with the scheduled overnight power-offs of high-drain devices on the station over this next week, and make decisions from next weekend's review.
