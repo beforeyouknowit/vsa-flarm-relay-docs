@@ -8,6 +8,8 @@
 - Changed relay Pi 3 `hostname` to `flarm-relay-pi` and rebooted.
 - All systems have been functioning as expected for this past week; consistently reviewed by James and Ashley remotely.
 - Suggestion of another mountaintop venture to reposition the solar panels; we'll see how we go with the scheduled overnight power-offs of high-drain devices on the station over this next week, and make decisions from next weekend's review.
+- Challenges with G3-Flex webcam; PoE power being provided, but no link being established. Suspect physical disconnect or issue with 50ft CAT7 cable from brain/box to webcam. Will have to check on a tentative/upcoming mountaintop visit.
+- Also discussed solar panel optimization; we're currently getting a consistent "dip" in power ouput around noon, and we suspect that a tree is casting a shadow during our peak "earning" time.
 
 ### 2019-08-17: Tower deployment expedition day!
 - Added third 50ft CAT7 outdoor-grade ethernet cable to brain/box, in preparation to run to tree-trunk-deployment of FLARM antenna.
