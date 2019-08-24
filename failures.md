@@ -4,17 +4,12 @@ Issues encountered so far; solutions & procedures pending:
 
 ---
 
-!> **Problem:** Brain/box v1.0 MPPT charge controller's serial data is only consumable in proprietary encoding format. (Not sure if decoding library is available from the manufacturer.)
-> **Solution:** Poll/debug RS485 serial data and develop our own (minimalistic) serial polling, after deploying the system on the mountain top, via SSH'ing in from the clubhouse. (If possible, securely VPN tunnel into the clubhouse network from off-site.)
-
----
-
 !> **Problem:** OGN Raspberry Pi computer crashes; startup sequence failure, (i.e. can’t SSH in!)
-> **Solution:** Defer to secondary brain/box Raspberry Pi for diagnostics and log inspection, otherwise; visit the mountain-top relay station, inspect and repair.
+> **Solution:** Manually power cycle the PoE port that the Pi is connected to, via the SunMAX SolarPoint web interface, otherwise; visit the mountain-top relay station, inspect and repair.
 
 ---
 
-!> **Problem:** Solar charge controller failure.
+!> **Problem:** SunMAX SolarPoint solar charge controller failure.
 > **Solution:** If the station is entirely offline, visit the mountain-top relay station; inspect and repair.
 
 ---

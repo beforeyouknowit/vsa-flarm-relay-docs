@@ -1,3 +1,3 @@
 # FLARM Radio Coverage Map
 
-> Radio coverage map coming soon, once we've got our station on the mountain!
+> Radio coverage map coming soon, i.e. fall 2019.

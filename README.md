@@ -2,7 +2,11 @@
 
 Welcome to the documentation for our OGN + FLARM relay project.
 
-![Open Glider Net System Diagram](./img/OGN_Arch.png "OGN System Diagram")
+&nbsp;
+<p align="center">
+	<img src="./img/OGN_Arch.png" alt="Open Glider Net System Diagram." width="700px">
+</p>
+&nbsp;
 
 ### For Documentation Developers
 - To get started, clone this repo to your local working directory.
